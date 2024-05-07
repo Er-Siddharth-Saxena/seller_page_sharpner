@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="handleFormSubmit(event)">
+        <label>Selling Price:</label>
+        <input type="text" id="sellingprice"/>
+        <label>Product Name:</label>
+        <input type="text" id="productname"/>
+        <label>Choose a category:</label>
+        <select id="type">
+            <option value="select">select</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Food">Clothing</option>
+            <option value="SkinCare">Home & Kitchen</option>
+        
+        </select>
+        <button type="submit">Add Product</button>
+        <ul id="productList"></ul>
+    
+    </form>
+</body>
+</html>
